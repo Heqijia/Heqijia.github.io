@@ -4,71 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qijia He - Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4181ee;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #555;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        main {
-            padding: 20px;
-        }
-        .container {
-            position: relative; /* 设置容器为相对定位 */
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-top: 20px;
-            padding: 0 150px;
-        }
-        .content {
-            flex: 2;
-            margin-right: 20px;
-        }
-        .sidebar {
-            position: absolute; /* 设置图片为绝对定位 */
-            top: 30px; /* 顶部对齐 */
-            right: 250px; /* 右侧对齐 */
-            /* transform: translate(50%, -50%); 使图片定位到右上角 */
-        }
-        .sidebar img {
-            width: 150px; /* 设置图片宽度 */
-            border: 3px solid #c3d6ff; /* You can adjust the width and color of the border as needed */
+    <link rel="stylesheet" href="styles.css">
 
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-        }
-        .section-title {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -77,13 +14,14 @@
     </header>
     <nav>
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="https://heqijia.github.io/index.html">CV</a>
+        <a href="https://heqijia.github.io/project.html">Projects</a>
+        <a href="https://heqijia.github.io/funThings.html">funThings</a>
     </nav>
     <main>
         <div class="container">
             <div class="content">
+                <div class="img-box"><img src="./pic/my_photo.png" width="200" height="auto" /></div>
                 <h2 class="section-title">EDUCATION</h2>
                 <p>
                     <span style="font-size: 18px;">Southern University of Science and Technology<br>
@@ -139,9 +77,9 @@
                     <li>Other Awards: 2021 4*400 in the 7th Autumn Sports Meeting of SUSTech, 3rd prize. Freshman Orienteering Competition, Zhicheng College, 1st prize. SUSTech Rock Climbing Team: Outstanding Athlete. The Triathlon Challenge in SUSTech, 1st prize. SUSTech Rock Climbing Competition, Elite group, 1st prize. SUSTech Pull up Competition, 1st prize. Outstanding Cadres in Rock Climbing Team, SUSTech.</li>
                 </ul>
             </div>
-            <div class="sidebar">
+            <!-- <div class="sidebar">
                 <img src="./my_photo.png" alt="Qijia He">
-            </div>
+            </div> -->
         </div>
     </main>
     <!-- <footer> -->
