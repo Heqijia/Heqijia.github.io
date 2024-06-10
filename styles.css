@@ -62,7 +62,26 @@ footer {
     margin-bottom: 5px;
 }
 .project {
-    background-color: #f9f9f9;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+
+    background-color: #e0ffff;
+    padding: 5px 20px; /* 5px top/bottom padding, 20px left/right padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-left: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+    margin-right: 30px; /* Adjust this value to set the distance from the "CLASS PROJECTS" title */
+
+    height: auto; /* 或者不设置高度，让div根据内容自动调整高度 */
+    overflow: auto; /* Automatically expand if content overflows */
+}
+
+.project_contest{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+
+    background-color: hsl(63, 100%, 88%);
     padding: 5px 20px; /* 5px top/bottom padding, 20px left/right padding */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,6 +107,8 @@ footer {
 
 .img-box {
     float: right;
+    margin: 8px;
+    margin-top: 30px;
 }
 
 .img-box-left-F {
@@ -97,8 +118,34 @@ footer {
     border-radius: 20px; /* 棱角 */
     margin: 8px;
 }
-h1 {
-text-align: center;
+
+.course {
+    /* font-size: 1.5em; */
+    /* font-weight: bold; */
+    color: #007BFF;
+    font-style: italic;
+    /* text-decoration: underline; */
 }
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25%; /* Adjust the gap as needed for spacing between the paragraphs */
+    margin-bottom: -25px; /* Adjust the margin-bottom as needed */
+
+}
+h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0; /* Remove default margins */
+}
+h3 small em {
+    font-style: italic; /* 设置为斜体 */
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+    font-size: 20px; /* 自动设置为稍小的字体大小 */
+    }
 
 
