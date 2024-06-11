@@ -31,7 +31,22 @@
                         <p class="course">Collaborator: None</p>
                     </div>
                     <div class="img-box"><img src="./pic/image-20240610000836782.jpg" height="200" width="auto" /></div>
-                    <p></p>
+                    <p>
+                        This is a visualization dashboard built with D3 to display transaction data in the US secondhand car market. The dataset, containing about 500,000 transactions, was directly downloaded from Kaggle. The dashboard includes several components:
+                    </p>
+                    <ul>
+                        <li>A pie chart showing the distribution of car types for a selected brand.</li>
+                        <li>A word cloud presenting the brands and their proportions in the secondhand market.</li>
+                        <li>A bar chart showing the top 7 best-selling cars of the selected brand.</li>
+                        <li>A parallel coordinate display detailing the specifications of the cars.</li>
+                        <li>A prediction model that estimates a car's price based on its model, year, and odometer. The result is returned and displayed on the scatter plot. This prediction model is simply implemented using KNN.</li>
+                    </ul>
+                    <p>
+                        You can open the "main.html" file to interact with these visualizations.
+                    </p>
+                    <p>Our report is avaliable <a href="./report/Report_CSE322.pdf">here</a>. Github page: <a href="https://github.com/Heqijia/CSE332_lab5">https://github.com/Heqijia/CSE332_lab5</a></p>
+
+
 
                 </div>
 
@@ -45,7 +60,19 @@
                     </div>
                     <div class="img-box"><img src="./pic/image-20240609232144891.jpg" height="200" width="auto" /></div>
                     <div class="img-box"><img src="./pic/image-20240609232109761.jpg" height="200" width="auto" /></div>
-                    <p></p>
+                    <p>
+                        The face recognition algorithm has been continuously refined and widely applied in contemporary society. In this course project, we encapsulated the Deepface model and created a user interface for a face recognition system using Python's PyQt5. and did performance analysis based on our own dataset. The system comprises five main functions:
+                    </p>
+                    <ol>
+                        <li>Face attribute analysis: Input an image and get predictions for age, ethnicity, gender, and emotion.</li>
+                        <li>Video Face detector: Detect and track faces in a video input.</li>
+                        <li>Image Face detector: Detect faces in a still image.</li>
+                        <li>Find matching Faces: Built a local face database comprising photos of three project members and various online personalities. Compare newly input images with the database and return whether they match any database photos and who they might be.</li>
+                        <li>Face Verification: Input two photos separately and determine whether the faces in the photos belong to the same person.</li>
+                    </ol>
+                    <p>For more details, you can view our report or github Repository:</p>
+                    <p>Our report is avaliable <a href="./report/Report_CV.pdf">here.</a> Github page: <a href="https://github.com/Fae42/cv-final-project">https://github.com/Fae42/cv-final-project</a></p>
+
                 </div>
 
                 
@@ -63,6 +90,8 @@
                         <li>A CSV file containing basic information of 5k vloggers in 2019, from Prof. Yifang Ma</li>
                         <li>A tracking data based on the ID of the vloggers (2022), collected by Google Web Scraper</li>
                     </ul>
+                    <p>Our report is avaliable <a href="./report/Report_IntroDS.pdf">here.</a> (In Chinese)</p>
+
                 </div>
 
 
@@ -77,6 +106,8 @@
                     <p>This project aims to develop a solver for a number puzzle game. Given any initial configuration, the goal is to determine if there is a solution. In this puzzle, <code>0</code> represents an empty space, yellow blocks represent large blocks (which can be 2x1, 1x2, or 2x2), and blue blocks represent small blocks (which are 1x1). For example, the final solution should look like <code>[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16], [17, 18, 0, 0]]</code>. In the searching process, only the blocks adjacent to the <code>0</code> block can be moved.</p>
                     <p>We implemented three solvers: <code>Solver</code>, <code>Solver1</code>, and <code>Solver2</code>. The <code>Solver</code> uses a self-designed greedy algorithm, <code>Solver1</code> uses pure BFS (Breadth-First Search), and <code>Solver2</code> uses pure DFS (Depth-First Search). The greedy algorithm in <code>Solver</code> prioritizes the move of blocks based on the distance between their current dashboard structure and the target dashboard structure, giving higher priority to the move of blocks and structures that will lead the board closer to its final structure. A Min Priority Queue (MinPQ) is used to manage the board's search structure. When the size of MinPQ exceeds 500,000, we retain only the best 10,000 points. This implementation performs significantly better than <code>Solver1</code> and <code>Solver2</code>, allowing <code>Solver</code> to handle boards as large as 6x6 in a limited amount of time, while the other two can only handle up to 3x3 boards. For detailed information on the algorithms, please refer to [...] (Written in Chinese)</p>
                     <p>Once the search process is complete, a final dashboard will be generated, displaying the steps taken to arrive at the solution.</p>
+                    <p>Our report is avaliable <a href="./report/Report_DSAA.pdf">here.</a> Github page: <a href="https://github.com/Heqijia/DSBB-project">https://github.com/Heqijia/DSBB-project</a></p>
+
                 </div>
 
                 <div class="project">
@@ -90,6 +121,7 @@
                     <!-- https://education.nationalgeographic.org/resource/coral-reefs/ -->
                     <p>
                         Xiaoyang Wang is a member of the Shenzhen Dive4love club, a newly minted diving instructor, coral reef conservationist and educator on the Dapeng Peninsula, Shenzhen. Despite being a latecomer to this field, Wang has an immense passion for nature. In this interview, we mainly discussed why Wang chose diving and coral conservation as his career, the current state and challenges of coral reef conservation, people's understanding and awareness of nature conservation, the role of education, and the social conflicts between environmental protection and development. The detail content can be seen in this report.                    </p>
+                    <p>Our report is avaliable <a href="./report/Report_interview.pdf">here.</a> (In Chinese)</p>
                 </div>
 
 
@@ -109,6 +141,8 @@
                         <li>Game saving: this feature generates a text file containing the basic information of the chessboard, including whose turn it is.</li>
                         <li>Undo a move: multiple undos are allowed.</li>
                     </ul>
+                <p>No report is abaliable for this project.</p>
+
                 </div>
 
                 <br>
@@ -121,7 +155,12 @@
                         <p class="course">Collaborator: Yupeng Su. Xiaoqun Liu</p>
                     </div>
                     <div class="img-box"><img src="./pic/微信图片_20240610205447.jpg" height="200" width="auto" /></div>
+                    <p>In the realm of sports, the concept of "momentum" is widely discussed among athletes and fans alike. It's often described as a player's perceived streak of success or failure, seemingly independent of their inherent skill level. For instance, a tennis player might experience a strong performance one week but struggle the next, with factors like weather, mood, or external conditions being blamed for the variance.</p>
+                    <p>Our paper delves into the elusive nature of momentum in sports, particularly in tennis. We aim to investigate its existence, how it transitions between players, and its impact on game outcomes. Leveraging the Wimbledon 2023 match data provided by COMAP, our model employs Logistic Regression with adjusted inputs, utilizes NMS to figure out the change of momentum, and implements the Anderson-Darling test to compare the observed momentum effects to those simulated under random conditions.</p>
+                    <p>Our report is avaliable <a href="./report/2024COMAP.pdf">here.</a></p>
+
                 </div>
+
                 <div class="project_contest">
                     <h3>Predicting Wordle Result Based on Random Forest <small><em>(Feb 2023)</em></small></h3>
                     <div class="course-container">
@@ -129,8 +168,11 @@
                         <p class="course">Collaborator: Yupeng Su. Xiaoqun Liu</p>
                     </div>
                     <div class="img-box"><img src="./pic/微信图片_20240610211511.jpg" height="200" width="auto" /></div>
+                    <p>Wordle is a word guessing game that appears on the back of the New York Times newspaper and also has an online version for people to enjoy. The words are all five letters long, and players have a limited number of guesses. Each correct guess returns information on whether the guessed word is in the target word and if so, its correct position. Some players share their results on Twitter. COMAP collected data from players who shared their results on Twitter in 2022 (number of guesses and whether they guessed the word). Based on this data, we need to predict the daily number of players for the company (using an ARIMA model), determine the distribution of the number of attempts for any given word (using Random Forests), and further assess the difficulty of guessing a particular word (using K-means clustering). Finally, we propose strategies for improving game quality for Wordle based on this analysis. Additionally, using the Monte Carlo algorithm, we've designed a word guessing machine that maximizes the probability of guessing the word（Wordle’s word dataset is scraped online）. This machine indicates that the number of attempts people actually need to guess the word is much higher than the number of attempts shared on Twitter.</p>
+                    <p>Our report is avaliable <a href="./report/2023COMAP.pdf">here.</a></p>
+
                 </div>
-                <br>
+                
 
 
 
