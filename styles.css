@@ -172,7 +172,7 @@ h3 small em {
 }
 
 .left-div img {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 0px;
     max-width: 60%; /* 确保图片不超过父容器的宽度的80% */
     max-height: 100%; /* 确保图片不超过父容器的高度 */
@@ -187,6 +187,9 @@ h3 small em {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 0 auto; /* 添加水平居中 */
+    font-family: 'Comic Sans MS', cursive; /* 设置标题字体 */
+    font-size: 20px; /* 设置段落字体大小为16像素，您可以根据需要调整这个数字 */
+
 }
 
 
@@ -214,14 +217,14 @@ h3 small em {
 }
 
 .progress-label {
-    width: 80px; /* 调整名称宽度 */
+    width: 50%; /* 调整名称宽度 */
     text-align: right;
     padding-right: 10px;
     font-weight: bold;
 }
 .progress-bar {
     margin-right: 40px;
-    width: calc(100% - 80px); /* 计算进度条宽度，减去名称宽度 */
+    width: calc(100% - 20px); /* 计算进度条宽度，减去名称宽度 */
     height: 12px;
     border: 2px solid #ccc;
     position: relative;
@@ -233,4 +236,30 @@ h3 small em {
     position: absolute;
     top: 0;
     left: 0;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    gap: 30px;
+}
+.fun_div{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    gap: 10px;
+    margin-top: 20px;
+}
+.fun_text{
+    margin-left: 5%;
+    display: block;
+}
+.fun_img img {
+    display: flex;
+    margin: 0 auto;
+    height: 150px;
+    width: auto;
+    border-radius: 10%;
 }
