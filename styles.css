@@ -258,6 +258,7 @@ h3 small em {
     margin-bottom: 20px; /* 增加一点间距 */
 }
 
+
 .fun_img {
     display: flex; /* 使用 flexbox 使图片水平排列 */
     justify-content: center; /* 水平居中图片 */
