@@ -62,9 +62,10 @@ footer {
     width: 100%;
 }
 .section-title {
+    font-size: x-large;
     border-bottom: 2px solid #ddd;
-    padding-bottom:2px;
-    margin-bottom: 5px;
+    padding-bottom:0px;
+    margin-bottom: 4px;
 }
 .project {
     font-family: "Times New Roman", Times, serif;
@@ -284,7 +285,7 @@ h3 small em {
     text-align: left;
     font-weight: bold; /* 加粗字体 */
     font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
-    font-size: 1.1em;
+    font-size: large;
 
 }
 
@@ -292,12 +293,12 @@ h3 small em {
     text-align: right;
     font-weight: bold; /* 加粗字体 */
     font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
-    font-size: 1.1em;
+    font-size: large;
 
 }
 .CV-subcontext {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
 }
 
