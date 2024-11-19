@@ -295,3 +295,19 @@ h3 small em {
     font-size: 1.1em;
 
 }
+.CV-subcontext {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif; /* 使用 Times New Roman 字体 */
+}
+
+.CV-subcontext-left {
+    flex: 1; /* 左侧部分 */
+    text-align: left;
+}
+
+.CV-subcontext-right {
+    flex: 0; /* 右侧部分 */
+    text-align: right;
+    white-space: nowrap; /* 防止右侧文字换行 */
+}

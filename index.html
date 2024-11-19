@@ -10,6 +10,26 @@
             font-family: "Times New Roman", Times, serif; /* 设置字体为Times New Roman */
             font-size: 1.05em;
         }
+        .centered-link {
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        height: 50px; /* 根据需要调整高度 */
+        font-family: "Arial", sans-serif; /* 设置字体 */
+        font-size: 18px; /* 设置字体大小 */
+        background-color: #f0f0f0; /* 设置背景颜色（可选） */
+        border: 1px solid #ccc; /* 设置边框（可选） */
+    }
+
+    .centered-link a {
+        text-decoration: none; /* 去掉下划线 */
+        color: #007BFF; /* 设置链接文字颜色 */
+    }
+
+    .centered-link a:hover {
+        text-decoration: underline; /* 鼠标悬停时显示下划线 */
+    }
+
     </style>
 </head>
 <body>
@@ -24,8 +44,13 @@
         <a href="./funThings.html">Playground</a>
     </nav>
     <main>
+
         <div class="container">
+
             <div class="content">
+                <div class="centered-link">
+                    <a href="./CV_QJH.pdf" target="_blank">View PDF Version</a>
+                </div>
                 <h2 class="section-title">EDUCATION</h2>
 
                 <div class="CV-subtitle-container">
@@ -59,6 +84,8 @@
                         <div class="CV-subtitle-right">Sep. 2024 - Present</div>
                     </div>
                         <li>Did a comprehensive literature review on the state of-the-art bandit algorithms, focusing on estimating model parameters using offline stochastic data for online preference feedback by accommodating LinUCB algorithm.</li>
+                        <li>Proposed several algorithmic approaches and conducted regret analysis, mathematically demonstrating that the offline 
+                            dataset can effectively reduce regret within the proposed algorithm framework. </li>
                         <li>Delivered a seminar presentation on stochastic linear bandits based on Bandit Algorithms [Tor Latimore et al, chapter 19].</li>
                 <br>
                     <div class="CV-subtitle-container">
@@ -159,7 +186,7 @@
                 <br>
                     <div class="CV-subtitle-container">
                         <div class="CV-subtitle-left">A Face Detection System Based on DeepFace</div>
-                        <div class="CV-subtitle-right">May 2023 - Jun. 2023</div>
+                        <div class="CV-subtitle-right">Jun. 2023</div>
                     </div>
                         <li>Encapsulated the Deepface model and created a user interface for a face recognition system using Python.</li>
                         <li>Realized five main functions: face attribute analysis (emotion, race, age, gender), face tracking, face detection, face recognition, and face verification, achieving 76.1% accuracy for face recognition and classification.</li>
@@ -180,9 +207,29 @@
                         <li>Utilized Python for exploratory data analysis (EDA) to analyze vloggers' characteristics and videos to identify changes in patterns and platform usage.</li>
                         <li>Provided suggestions for new and experienced vloggers on creating videos and attracting fans accordingly.</li>
                 <br>
-                    <h2 class="section-title">SKILLS</h2>
-                        <li>Technical: Python, R, Java, Hadoop & Spark, HTML/CSS/JavaScript, MATLAB</li>
-                        <li>Language: Mandarin (native), English (proficient), Spanish (basic)</li>
+                <h2 class="section-title">SKILLS & MISCELLANEOUS</h2>
+                <ul>
+                    <li><strong>Technical:</strong> Python, R, Java, Hadoop & Spark, HTML/CSS/JavaScript, MATLAB</li>
+                    <li><strong>Language:</strong> Mandarin (native), English (proficient), Spanish (basic)</li>
+                    <li><strong>Social Works:</strong>
+                        <ul>
+                            <li>
+                                <div class="CV-subcontext">
+                                    <div class="CV-subcontext-left">Assistant Instructor for SUSTech Youth Rock Climbing Course</div>
+                                    <div class="CV-subcontext-right">Jan. 2024</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="CV-subcontext">
+                                    <div class="CV-subcontext-left">Student Assistant in Student Affairs Center, SUSTech</div>
+                                    <div class="CV-subcontext-right">Jun. 2022 - Aug. 2022</div>
+                                </div>
+                            </li>
+                            <li>Contributed Over 80 Hours of Volunteer Service Across Diverse Activities and Organizations</li>
+                        </ul>
+                    </li>
+                    <li><strong>Interest:</strong>Rock Climbing (SUSTech’s Rock Climbing Team), Badminton (Zhicheng College’s Badminton Team), Hiking.</li>
+                </ul>
                 <br>
             
 
