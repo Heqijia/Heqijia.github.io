@@ -64,7 +64,7 @@ footer {
 .section-title {
     font-size: x-large;
     border-bottom: 2px solid #ddd;
-    padding-bottom:0px;
+    padding-top:4px;
     margin-bottom: 4px;
 }
 .project {
